@@ -17,7 +17,7 @@ GoogleTest 是由测试技术团队开发的测试框架，充分考虑了 Googl
 ## 基本概念
 
 * Test Suite(测试套件): 是GTest中的一个术语, 一个Test Suite可以包含多个测试用例, 我们可以使用Test Suit作为不同测试类型进行分类
-* fixture(装置): 如果说多个 Test Suit要使用同一个object, 那么可以把这些Test Test归到一个 fixture上, 这样多个Test Suit就可以共享同一个object
+* fixture(夹具): 如果说多个 Test Suit要使用同一种object/配置, 那么可以把这些Test Test归到一个 fixture上, 这样多个Test Suit就可以共享同一个object
 
 
 ## 最简单Test
@@ -135,5 +135,5 @@ namespace MyGTest
 
 确实，这里有个更方便的做法无需写```main```函数直接让测试跑起来:  
 
-**在编译时候链接上 ```libgtest_main```**
+**在编译时候链接上 ```libgtest_main```**, 由GTest自己将测试跑起来
 

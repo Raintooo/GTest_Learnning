@@ -1,1 +1,6 @@
-googleTest study notes
+该栏目主要用于记录GTest学习笔记
+
+目录:
+
+- [第一次使用GTest](#第一次使用gtest)
+- [断言使用](#断言使用)
